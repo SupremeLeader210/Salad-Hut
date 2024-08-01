@@ -567,6 +567,7 @@ footer {
 }
 
 .f-logo {
+  height: 80px;
   display: flex;
   font-size: 45px;
   font-family: "playfair-display", serif;
@@ -589,6 +590,11 @@ footer {
 
 .f-nav {
   display: flex;
+  grid-column: 6/11;
+  background-color: orangered;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
 }
 .f-nav a {
   text-decoration: none;
@@ -597,5 +603,23 @@ footer {
   font-weight: bold;
 }
 
-.new {
+footer > p {
+  grid-column: 2/6;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.14px;
+  color: #1a1a1a;
+  margin-top: 50px;
+}
+
+.f-info {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.14px;
+  margin-top: 32px;
+}
+.f-info a {
+  color: #1a1a1a;
+  text-decoration: none;
 }
